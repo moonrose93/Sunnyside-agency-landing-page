@@ -1,0 +1,702 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.banner{
+    background-image: url('images/desktop/image-header.jpg');
+    height: 80vh;
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+}
+
+.contact-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Hedvig Letters Serif", serif;
+    cursor: pointer;
+}
+
+.logo-header{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1rem;
+}
+
+.arrow{
+    margin-top: 60px;
+    
+    
+  
+}
+
+
+.section-one{
+    display: flex;
+}
+
+.section-one .left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.transform-heading{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.paragraph{
+    line-height: 2rem;
+    font-family: sans-serif;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+.more {
+    display: inline-block;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative; /* Added positioning */
+}
+
+.more:hover::after {
+    content: "";
+    position: absolute; /* Positioned relative to the .more element */
+    bottom: -8px; /* Adjusted positioning to place it under the .more element */
+    left: 50%; /* Adjusted positioning */
+    transform: translateX(-50%); /* Centered the line horizontally */
+    height: 6px;
+    border-radius: 3px;
+    background-color: yellow;
+    width: 100%;
+}
+
+
+.section-two{
+    display: flex;
+}
+
+.left-two, .right-two{
+    flex:1;
+}
+
+.left-two img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-two{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-two{
+    display: inline-block;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.more-two:hover::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+   transform: translateX(-50%);
+   top:20px;
+    width: 100%;
+    border-radius: 3px;
+    height: 6px;
+    background-color: rgba(231, 80, 80);
+}
+
+.section-three{
+    display: flex;
+    height: 100%;
+    min-height: 800px;
+}
+
+.left-third{
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+.left-third,
+.right-third{
+    
+    flex:1
+}
+
+.right-third{
+    background-image: url('images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box-design,
+.box-photography{
+margin-top: 500px;
+}
+
+.design-heading,
+.photography-heading{
+    margin-bottom: 40px;
+}
+
+
+.paragraph-p,
+.paragraph-g{
+    line-height: 2rem;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+.testimonials-heading{
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+  font-weight: 800;
+  letter-spacing: 0.6rem;
+  font-style: normal;
+  text-transform: uppercase;
+  color: gray;
+
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center ;
+  
+}
+
+
+
+.ppl{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.section-four{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: center;
+}
+
+.emily,
+.thomas,
+.jennie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.emily img,
+.thomas img,
+.jennie img{
+    border-radius: 50%;
+}
+
+.paragraph-one,
+.paragraph-two,
+.paragraph-three {
+    line-height: 2rem;
+    font-family: sans-serif;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    margin-top: 40px;
+}
+
+.name{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.position{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.five{
+    display: flex;
+    
+}
+
+.five-container-img img{
+flex:0.25%;
+width: 100%;
+}
+
+.footer{
+    background-color: rgb(117, 189, 165);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo-footer path{
+    fill: rgb(58, 121, 86);
+}
+
+.logo-footer{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(58, 121, 86);
+    font-size: 1rem;
+    margin-bottom: 80px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.social-media-icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.fb path:hover,
+.instagram path:hover,
+.twitter path:hover,
+.pinterest path:hover{
+    fill: white;
+}
+
+
+.about-desktop:hover,
+.services-desktop:hover,
+.projects-desktop:hover{
+    color: white;
+    
+}
+
+
+.mobile{
+    display: none;
+}
+
+@media(max-width: 480px){
+
+   
+
+    .desktop{
+    display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+
+    .banner-mobile{
+        background-image: url("images/mobile/image-header.jpg");
+        height: 80vh;
+        background-position: top center;
+        background-size: cover;
+        width: 420px;
+    }
+
+    .header-mobile{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 40px;
+    }
+
+    .creatives-mobile{
+        display: flex;
+        justify-content:center ;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.6rem;
+        font-weight: 900;
+        margin-top: 90px;
+        font-size: 2.6rem;
+    }
+
+
+ 
+
+    .heading-arrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    } 
+
+    .arrow-down{
+        margin-top: 60px;
+    }
+ 
+  .section-one-mobile{
+   
+    width: 420px;
+  }
+   .top,
+   .bottom{
+    width: 420px;
+   }
+ 
+
+   .top img{
+    width: 420px;
+   }
+
+   .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+   }
+  
+
+   .transform-heading-mobile{
+    font-weight: 800;
+   }
+
+   .paragraph-mobile{
+    line-height: 2rem;
+    font-family: sans-serif;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    margin-top: 30px;
+}
+
+
+.more-two{
+    display: inline-block;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.more-two::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+   transform: translateX(-50%);
+   top:20px;
+    width: 100%;
+    border-radius: 3px;
+    height: 6px;
+    background-color: rgba(231, 80, 80);
+}
+
+.more {
+    display: inline-block;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative; /* Added positioning */
+
+}
+
+.more::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+   transform: translateX(-50%);
+   top:20px;
+    width: 100%;
+    border-radius: 3px;
+    height: 6px;
+    background-color: yellow;
+}
+
+   }
+ 
+
+   .section-design{
+    background-image: url("images/mobile/image-graphic-design.jpg");
+    height: 80vh;
+    background-size: cover;
+    width: 420px;
+ 
+   
+   }
+
+   .box-design-mobile{
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 450px;
+    width: 420px;
+
+
+   }
+
+   .section-photography{
+    background-image: url("images/mobile/image-photography.jpg");
+    height: 80vh;
+    background-size: cover;
+   
+    top:180px;
+    width: 420px;
+ 
+   
+   }
+
+   .paragraph-p,
+.paragraph-g{
+    line-height: 2rem;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    font-size: 0.9rem;
+}
+
+
+.emily,
+.thomas,
+.jennie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    width: 420px;
+}
+
+.emily{
+    margin-top: 0px;
+}
+
+
+
+.section-four-mobile{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    width: 420px;
+}
+
+
+
+.emily img,
+.thomas img,
+.jennie img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+
+.testimonials-heading{
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  font-style: normal;
+  text-transform: uppercase;
+  color: gray;
+ position: relative;
+ top:80px;
+ font-size: 1rem;
+  display: flex;
+  justify-content: center ;
+  
+}
+
+
+.five{
+    display: flex;
+}
+
+.five-container-img img{
+    flex: 1;
+}
+
+.six{
+    display: flex;
+    position: relative;
+    top:-10px
+}
+
+
+
+.container-images{
+   height: 500px;
+    width: 420px;
+   
+}
+
+
+.footer-mobile{
+    background-color: rgb(117, 189, 165);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+}
+
+.ppl-mobile{
+    margin-bottom: 80px;
+    
+}
+
+.menu-mobile{
+    width: 360px;
+   display: flex;
+   justify-content: center;
+
+    position: absolute;
+    left: 30px;
+    background-color: white;
+    height: 300px;
+    top: 130px;
+    display: none;
+
+}
+
+.name{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.menu-box{
+ height: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 360px;
+ 
+}
+
+.about,
+.services,
+.projects{
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: black;
+    
+}
+
+
+.about:hover,
+.services:hover,
+.projects:hover{
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: black;
+    
+}
+
+.contact{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 212, 70);
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paragraph-one,
+.paragraph-two,
+.paragraph-three {
+    line-height: 2rem;
+    font-family: sans-serif;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
